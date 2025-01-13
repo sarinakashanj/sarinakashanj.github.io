@@ -444,6 +444,28 @@ nav{
         font-size: 12px;
     }
 }
+.education-container {
+    display: flex; /* Makes the container a flexbox */
+    justify-content: space-between; /* Adds space between the sections */
+    gap: 20px; /* Optional: Adds spacing between the sections */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    margin: 20px 0; /* Adds margin around the container */
+}
+
+.education-section {
+    flex: 1; /* Ensures both sections take up equal space */
+    min-width: 300px; /* Ensures sections don't shrink too small */
+    padding: 16px; /* Adds padding inside the sections */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    background-color: var(--background-color); /* Optional: Replace with your preferred color */
+    border-radius: 8px; /* Optional: Rounds the corners */
+}
+
+@media screen and (max-width: 768px) {
+    .education-container {
+        flex-direction: column; /* Stacks the sections vertically */
+    }
+}
 
 
   
