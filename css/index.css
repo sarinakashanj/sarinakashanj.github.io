@@ -367,6 +367,7 @@ nav{
     line-height: 1.5;
     font-size: 16px;
     color: var(--dark-color-4);
+     text-align: justify;
 }
 
 .column ul li{
