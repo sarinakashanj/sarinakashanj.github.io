@@ -148,7 +148,7 @@ nav{
 
 .responsive-img {
     width: 45%; /* Adjust the width to fit side by side */
-    max-width: 200px; /* Optional: Restrict maximum size */
+    max-width: 300px; /* Optional: Restrict maximum size */
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: Add rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for aesthetics */
