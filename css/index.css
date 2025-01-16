@@ -396,6 +396,23 @@ nav{
     filter: drop-shadow(8px 8px 10px gray);
 }
 
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
 .label{
     color: var(--dark-color-2);
     font-weight:bold ;
